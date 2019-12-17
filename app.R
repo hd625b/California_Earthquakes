@@ -8,6 +8,7 @@
 #
 library(shiny)
 library(readr)
+library(plot3d)
 # fileLocation <- "https://github.com/hd625b/California_Earthquakes/blob/master/californiaEarthquakes.csv"
 df <- read_csv("californiaEarthquakes.csv", 
                col_types = "nnnn")
