@@ -3,7 +3,7 @@
 
 Requirements: R-Studio 
 
-Package Requirements: "dplyr", "ggmap", "plot3D", "psych", "qcc", "reshape2", "rgl", "scatterplot3d", "tidyverse") 
+Package Requirements: "dplyr", "plot3D", "rgl", "scatterplot3d", "tidyverse") 
 
 From R-Studio run the command:
 
