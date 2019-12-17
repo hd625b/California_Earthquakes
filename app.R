@@ -6,9 +6,9 @@
 #
 #    http://shiny.rstudio.com/
 #
-library(shiny)
-library(readr)
-library(plot3d)
+pkg.names <- c("dplyr", "ggmap", "plot3D", "psych", "qcc", 
+               "reshape2", "rgl", "scatterplot3d", "shiny", "tidyverse") 
+invisible(suppressMessages(lapply(pkg.names, require, character.only = TRUE)))
 # fileLocation <- "https://github.com/hd625b/California_Earthquakes/blob/master/californiaEarthquakes.csv"
 df <- read_csv("californiaEarthquakes.csv", 
                col_types = "nnnn")
