@@ -1,5 +1,6 @@
+## Work in Process ##
 # California_Earthquakes
-3D plot and 2D k-Means Scatter Plot 
+# 3D plot and 2D k-Means Scatter Plot 
 
 Requirements: R-Studio 
 
